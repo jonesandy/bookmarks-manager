@@ -8,4 +8,11 @@ For this application the following user stories were considered.
 ```
 As a user
 So I can visit my favourite websites
-I want to see a list of my 
+I want to see a list of bookmarks
+```
+
+## Domain models
+
+First domain model.
+
+![Basic Domain model](docs/imgs/user-story-1.png)
