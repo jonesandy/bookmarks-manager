@@ -21,6 +21,8 @@ $ \c bookmark_manager
 # then run query found in 01_create_bookmark_table.sql file in db/migrations directory.
 ```
 
+A test environment database will also need to be created in the same way as above, but labelled as ```bookmark_manager_test```.
+
 ## User stories
 For this application the following user stories were considered.
 
