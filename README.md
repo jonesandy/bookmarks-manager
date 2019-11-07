@@ -2,6 +2,25 @@
 
 An application to store your favourite websites in a bookmarks manager. Created for week 4 of the Makers academy course.
 
+## Setup and installation
+
+This application requires the use of a PostgreSQL database. If PostgreSQL isn't installed on your machine you'll need to install it first:   
+```
+$ brew install postgresql
+```
+
+To setup the database follow these steps:
+```bash
+# connect to psql
+$ psql
+# create database using psql
+$ CREATE DATABASE bookmark_manager;
+# connect to database
+$ \c bookmark_manager
+
+# then run query found in 01_create_bookmark_table.sql file in db/migrations directory.
+```
+
 ## User stories
 For this application the following user stories were considered.
 
